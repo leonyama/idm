@@ -195,55 +195,58 @@ body{
     width: 100%;
     max-width: 700px;
     text-align: center;
-  }
-  .class th, .class td{
+}
+
+.class th, .class td{
     border: 2px solid rgb(235, 211, 167);
     padding: 1em;
-  }
-  .class thead th{
+}
+
+.class thead th{
     background-color: rgb(229, 175, 75);
     color: #fff;
     border: 2px solid rgb(229, 175, 75);
     border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
-  }
+}
 
-  .class thead th:last-of-type{
+.class thead th:last-of-type{
     border-right: 2px solid rgb(229, 175, 75);
-  }
+}
 
-  .class tbody th{
+.class tbody th{
     color: rgb(229, 175, 75);
     font-weight: bold;
     text-align: center;
-  }
+}
 
-  @media screen and (max-width: 700px){
+@media screen and (max-width: 700px){
     .class{
-      text-align: left;
+        text-align: left;
     }
 
     .class thead{
-      display:none;
+        display:none;
     }
 
     .class th, .class td{
-      display: block;
-      border: 0;
-      border-bottom: 2px solid rgb(235, 211, 167);
+        display: block;
+        border: 0;
+        border-bottom: 2px solid rgb(235, 211, 167);
     }
 
     .class tbody th{
-      background: rgb(229, 175, 75);
-      color:#fff;
+        background: rgb(229, 175, 75);
+        color:#fff;
     }
 
     .table_design08 td::before{
-      color: rgb(229, 175, 75);
-      font-weight: bold;
-      display: inline-block;
-      width: 20%;
-      min-width: 4em;
+        content: attr(data-label);
+        color: rgb(229, 175, 75);
+        font-weight: bold;
+        display: inline-block;
+        width: 20%;
+        min-width: 4em;
     }
 }
 

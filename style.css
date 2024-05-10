@@ -125,11 +125,11 @@ body{
 	font-size: 23px;
 }
 
-.cource {
+.course {
     margin-bottom: 20px;
 }
 
-.cource::before {
+.course::before {
     content: attr(data-number);
     display: block;
     margin-bottom: 10px;
@@ -138,18 +138,18 @@ body{
     border-bottom: 1px solid yellowgreen;
 }
 
-.cource-info {
+.course-info {
     margin-left: 15px; 
     margin-right: 15px;
 }
 
-.cource-title {
+.course-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px; 
 }
 
-.cource-description {
+.course-description {
     font-size: 14px;
     line-height: 1.5;
 }

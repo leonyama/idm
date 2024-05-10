@@ -119,7 +119,7 @@ body{
 }
 
 .texts::before{
-	content: attr(data-number);
+	/*content: attr(data-number);*/
 	display: inline-block;
 	margin-right: 20px;
 	color: red;

@@ -197,23 +197,23 @@ body{
     text-align: center;
   }
   .class th, .class td{
-    border: 2px solid #d2e8f1;
+    border: 2px solid rgb(235, 211, 167);
     padding: 1em;
   }
   .class thead th{
-    background-color: #4d9bc1;
+    background-color: rgb(229, 175, 75);
     color: #fff;
-    border: 2px solid #4d9bc1;
+    border: 2px solid rgb(229, 175, 75);
     border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
   }
 
   .class thead th:last-of-type{
-    border-right: 2px solid #4d9bc1;
+    border-right: 2px solid rgb(229, 175, 75);
   }
 
   .class tbody th{
-    color: #4d9bc1;
+    color: rgb(229, 175, 75);
     font-weight: bold;
     text-align: center;
   }
@@ -230,16 +230,16 @@ body{
     .class th, .class td{
       display: block;
       border: 0;
-      border-bottom: 2px solid #e6f1f6;
+      border-bottom: 2px solid rgb(235, 211, 167);
     }
 
     .class tbody th{
-      background: #4d9bc1;
+      background: rgb(229, 175, 75);
       color:#fff;
     }
 
     .table_design08 td::before{
-      color: #4d9bc1;
+      color: rgb(229, 175, 75);
       font-weight: bold;
       display: inline-block;
       width: 20%;

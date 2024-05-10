@@ -189,6 +189,68 @@ body{
     margin-top: 10px; 
 }
 
+.class{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+  }
+  .class th, .class td{
+    border: 2px solid #d2e8f1;
+    padding: 1em;
+  }
+  .class thead th{
+    background-color: #4d9bc1;
+    color: #fff;
+    border: 2px solid #4d9bc1;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+  }
+
+  .class thead th:last-of-type{
+    border-right: 2px solid #4d9bc1;
+  }
+
+  .class tbody th{
+    color: #4d9bc1;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 700px){
+    .class{
+      text-align: left;
+    }
+
+    .class thead{
+      display:none;
+    }
+
+    .class th, .class td{
+      display: block;
+      border: 0;
+      border-bottom: 2px solid #e6f1f6;
+    }
+
+    .class tbody th{
+      background: #4d9bc1;
+      color:#fff;
+    }
+
+    .table_design08 td::before{
+      color: #4d9bc1;
+      font-weight: bold;
+      display: inline-block;
+      width: 20%;
+      min-width: 4em;
+    }
+}
+
+
+
+
+
 .footer{
     background-color: #333;
     padding: 2rem;

@@ -222,21 +222,44 @@ body{
 }
 
 
+/* 決してめんどくさくなったから無理やり横スクロール消したわけではない() */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
-footer {
-    margin-top: 3%;
-    background-color: #f3f3f7b3;
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+footer{
+    margin-top: 50px;
+    background-color: rgba(243, 243, 247, 0.7);
     width: 100%;
-    padding: 2.5rem;
-    flex-wrap: wrap;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
-.footer .footer-title {
-    font-size: 1rem;
-    letter-spacing: .05rem;
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.footer .sns {
+.footer-title{
+    font-size: 19.2px; 
+    letter-spacing: 0.8px;
+    margin-bottom: 16px; 
+}
+
+.sns{
     display: flex;
     align-items: center;
     list-style: none; 
@@ -244,18 +267,25 @@ footer {
     margin: 0; 
 }
 
-.footer .sns .follow-text {
-    font-size: 1rem;
-    letter-spacing: .05rem;
-    margin-right: 0.5rem; 
+.follow-text{
+    font-size: 16px; 
+    letter-spacing: 0.8px; 
+    margin-right: 8px;
 }
 
-.footer .sns a {
+.sns a{
     display: block;
-    font-size: 1.5rem;
-    transition: all .2s ease-in;
+    font-size: 24px; 
+    transition: color 0.2s ease-in;
+    color: inherit;
 }
 
-.footer .sns a:hover {
+.sns a:hover{
     color: #E1306C; 
+}
+
+.instagram-icon svg{
+    width: 24px; 
+    height: 24px; 
+    fill: currentColor;
 }

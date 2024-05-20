@@ -221,6 +221,44 @@ body{
     text-align: center;
 }
 
+.course-commons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    position: relative;
+}
+
+.course-commons::before {
+    content: attr(data-number);
+    font-weight: bold;
+}
+/*線の位置意味わからん。意味わからなすぎて頭爆発した*/
+.course-commons::after {
+    content: '';
+    height: 2px;
+    background-color: #181818;
+    position: absolute;
+    top: 45px; 
+    left: 0;
+    right: 0;
+}
+
+.course-commons .common-title {
+    display: block;
+    padding-top: 10px;
+    font-size: 18px;
+    color: lightskyblue;
+    margin-bottom: 5px;
+}
+
+.course-commons .common-info {
+    display: block;
+    font-size: 16px;
+    border-left: 3px solid red;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
 
 /* 決してめんどくさくなったから無理やり横スクロール消したわけではない() */
 *,

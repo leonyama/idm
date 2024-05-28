@@ -7,7 +7,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    background: #dddde0b3;
+    background: #f1f1f3b3;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     z-index: 99;
@@ -254,7 +254,7 @@ body{
 .course-commons .common-info {
     display: block;
     font-size: 16px;
-    border-left: 3px solid red;
+    border-left: 4px solid red;
     padding: 10px;
     margin-bottom: 15px;
 }

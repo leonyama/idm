@@ -7,7 +7,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    background: #f1f1f3b3;
+    background: rgba(217, 217, 223, 0.7);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     z-index: 99;
@@ -260,7 +260,34 @@ body{
 }
 
 
-/* 決してめんどくさくなったから無理やり横スクロール消したわけではない() */
+
+details{
+    color: black;
+    text-align: left;
+    padding: 8px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+  
+summary{
+    font-weight: bold;
+}
+
+.notice{
+    color: red;
+}
+
+#inst a{
+    color: yellowgreen;
+    /*text-decoration: none;*/
+}
+
+#gmail a{
+    color: rgb(64, 64, 202);
+    /*text-decoration: none;*/
+}
+
+/* 横スクロールなんか知らんけど消えた。消したかったんやけど... */
 *,
 *::before,
 *::after {
@@ -268,6 +295,7 @@ body{
 }
 
 body {
+    text-decoration: none;
     margin: 0;
     padding: 0;
     overflow-x: hidden; 
@@ -275,7 +303,7 @@ body {
 
 footer{
     margin-top: 50px;
-    background-color: rgba(243, 243, 247, 0.7);
+    background-color: rgba(217, 217, 223, 0.7);
     width: 100%;
     padding: 40px;
     display: flex;

@@ -287,6 +287,10 @@ summary{
     /*text-decoration: none;*/
 }
 
+#leonyama{
+    color: greenyellow;
+}
+
 /* 横スクロールなんか知らんけど消えた。消したかったんやけど... */
 *,
 *::before,

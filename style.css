@@ -7,7 +7,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(217, 217, 223, 0.7);
+    background: rgb(233, 228, 223);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     z-index: 99;

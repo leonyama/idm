@@ -1,5 +1,5 @@
 body{
-    font-family: serif;
+    font-family: 'Poppins', sans-serif, serif;
 }
 
 .header {
@@ -285,6 +285,49 @@ summary{
 #gmail a{
     color: rgb(64, 64, 202);
     /*text-decoration: none;*/
+}
+
+
+.shadow, .event-schedule {
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.event-title {
+    color: #9b5de5;
+}
+
+.event-box {
+    margin-left: 20px;
+    background-color: #f8f9fa;
+    padding: 2rem 1.5rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+
+.event-time {
+    margin-top: -30px;
+    font-weight: bold;
+}
+
+.location {
+    font-size: small;
+    font-weight: normal;
+}
+
+.event-description {
+    line-height: 2;
+    color: #6c757d;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* 横スクロールなんか知らんけど消えた。消したかったんやけど... */

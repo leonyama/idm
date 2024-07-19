@@ -287,6 +287,10 @@ summary{
     /*text-decoration: none;*/
 }
 
+.event-reservation{
+    text-decoration: none;
+    background: linear-gradient(transparent 70%, yellowgreen 70%);
+}
 
 .event-schedule {
     width: 100%;
@@ -311,11 +315,6 @@ summary{
     border-radius: 10px;
 }
 
-.event-time {
-    margin-top: -30px;
-    font-weight: bold;
-}
-
 .location {
     font-size: small;
     font-weight: normal;
@@ -323,7 +322,8 @@ summary{
 
 .event-description {
     line-height: 2;
-    color: #6c757d;
+    color: #53595f;
+    font-weight: 350;
 }
 
 /* 横スクロールなんか知らんけど消えた。消したかったんやけど... */

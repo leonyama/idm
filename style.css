@@ -47,6 +47,11 @@ body{
     padding-top: 5%;
 }
 
+.rule{
+    text-decoration: none;
+    background: linear-gradient(transparent 80%, red 40%);
+}
+
 .header a {
     color: #181818;
     font-weight: bold;
@@ -289,7 +294,7 @@ summary{
 
 .event-reservation{
     text-decoration: none;
-    background: linear-gradient(transparent 70%, yellowgreen 70%);
+    background: linear-gradient(transparent 80%, yellowgreen 40%);
 }
 
 .event-schedule {

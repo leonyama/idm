@@ -345,6 +345,24 @@ body {
     overflow-x: hidden; 
 }
 
+.section {
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #a39f9fbe;
+}
+
+.rule-title, .content {
+    font-size: large;
+    line-height: 1.6;
+    display: inline;
+}
+
+.rule-title {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
 footer{
     margin-top: 50px;
     background-color: rgba(217, 217, 223, 0.7);

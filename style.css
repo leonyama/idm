@@ -282,12 +282,12 @@ summary{
     color: red;
 }
 
-#inst a{
+.inst a{
     color: rgb(224, 130, 209);
     /*text-decoration: none;*/
 }
 
-#gmail a{
+.gmail a{
     color: rgb(64, 64, 202);
     /*text-decoration: none;*/
 }

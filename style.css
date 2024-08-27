@@ -416,3 +416,26 @@ footer{
     height: 24px; 
     fill: currentColor;
 }
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.blog-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-content {
+    padding: 10px;
+}
+
+.blog-description {
+    font-size: large;
+    margin-bottom: 10px;
+}

@@ -433,7 +433,7 @@ footer{
     border-radius: 10px; 
     overflow: hidden;
     background-color: white; 
-    transition: transform 0.2s; 
+    transition: transform 0.1s; 
     flex-direction: column;
 }
 

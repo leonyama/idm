@@ -498,14 +498,14 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 20px;
     margin-top: 12px;
 }
 
 .photo-gallery img {
-    width: 90px;
-    height: 90px;
-    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    /*border-radius: 8px;*/
     object-fit: cover;
     cursor: pointer;
 }

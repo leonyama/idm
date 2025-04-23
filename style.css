@@ -291,7 +291,7 @@ summary{
 
 .event-reservation{
     text-decoration: none;
-    background: linear-gradient(transparent 80%, yellowgreen 40%);
+    background: linear-gradient(transparent 80%, rgb(102, 188, 212) 40%);
 }
 
 .event-schedule {

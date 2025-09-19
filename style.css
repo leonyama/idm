@@ -335,6 +335,7 @@ summary{
 }
 
 body {
+    background-color: rgb(139, 134, 128);
     font-family: serif;
     text-decoration: none;
     margin: 0;

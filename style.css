@@ -14,7 +14,7 @@
 .title {
     text-align: center;
     font-weight: 700;
-    font-size: x-large;
+    font-size: 35px;
     border-bottom: 1px solid #9b9b9c;
     color: #282828;
     margin-bottom: 5px;
@@ -337,6 +337,7 @@ summary{
 body {
     background-color: rgb(139, 134, 128);
     font-family: serif;
+    background-color: rgb(233, 228, 223);
     text-decoration: none;
     margin: 0;
     padding: 0;

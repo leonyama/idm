@@ -103,11 +103,12 @@
 }
 
 .shadow{
+    /*background-color: rgb(233, 228, 223);*/
+    background-color: white;
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
     margin-top: 30px;
-    background-color: #ffffff;
     border-collapse: collapse;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -135,7 +136,7 @@
     content: attr(data-number);
     display: block;
     margin-bottom: 10px;
-    color: yellowgreen;
+    color: rgb(88, 117, 31);
     font-size: 23px;
     border-bottom: 1px solid yellowgreen;
 }
@@ -149,6 +150,11 @@
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px; 
+}
+
+.course-title a{
+    color: rgb(161, 35, 94);
+    direction: none;
 }
 
 .course-description {
@@ -261,8 +267,6 @@
     margin-bottom: 15px;
 }
 
-
-
 details{
     color: black;
     text-align: left;
@@ -335,7 +339,6 @@ summary{
 }
 
 body {
-    background-color: rgb(139, 134, 128);
     font-family: serif;
     background-color: rgb(233, 228, 223);
     text-decoration: none;

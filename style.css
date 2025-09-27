@@ -744,3 +744,115 @@ footer{
     font-size: 20px;
     opacity: 0.3;
 }
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.profile-image-container {
+    flex-shrink: 0;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-basic {
+    flex-grow: 1;
+}
+
+.profile-name {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.profile-role {
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+}
+
+.profile-content {
+    padding: 20px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #444;
+}
+
+.career-list {
+    padding: 20px;
+}
+
+.career-item {
+    padding: 12px 0;
+    font-size: 16px;
+    color: #444;
+    position: relative;
+    padding-left: 20px;
+}
+
+.career-item::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #666;
+    font-weight: bold;
+}
+
+.student-achievements {
+    padding: 20px;
+}
+
+.achievement-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(rgb(233, 228, 223));
+    border-radius: 8px;
+    font-size: 16px;
+    color: #444;
+    font-weight: 500;
+}
+
+.achievement-item1 {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(rgb(233, 228, 223));
+    border-radius: 8px;
+    font-size: 16px;
+    color: rgb(179, 119, 119);
+    font-weight: 500;
+}
+
+.achievement-item:last-child {
+    margin-bottom: 0;
+}
+
+.philosophy-content {
+    padding: 20px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #444;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .pricing-info {
+        flex-direction: column;
+    }
+}

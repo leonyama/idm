@@ -748,7 +748,8 @@ footer{
 .profile-header {
     display: flex;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
+    gap: 20px;
     padding: 30px;
 }
 
@@ -773,13 +774,14 @@ footer{
     font-size: 28px;
     font-weight: 700;
     color: #333;
-    margin: 0 0 10px 0;
+    margin: 0 50px 10px 0;
 }
 
 .profile-role {
     font-size: 16px;
     color: #666;
     font-weight: 500;
+    margin: 0 50px 0 0;
 }
 
 .profile-content {
@@ -819,16 +821,6 @@ footer{
     background: linear-gradient(rgb(233, 228, 223));
     border-radius: 8px;
     font-size: 16px;
-    color: #444;
-    font-weight: 500;
-}
-
-.achievement-item1 {
-    padding: 15px;
-    margin-bottom: 10px;
-    background: linear-gradient(rgb(233, 228, 223));
-    border-radius: 8px;
-    font-size: 16px;
     color: black;
     font-weight: 500;
 }
@@ -851,8 +843,17 @@ footer{
         text-align: center;
         gap: 20px;
     }
-    
-    .pricing-info {
-        flex-direction: column;
-    }
+}
+
+.profile-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 25;
+}
+
+.gym-icon {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
 }

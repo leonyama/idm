@@ -45,8 +45,13 @@
 }
 
 .rule{
+    text-align: center;
     text-decoration: none;
-    background: linear-gradient(transparent 80%, red 40%);
+}
+
+.rule a {
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 .header a {
